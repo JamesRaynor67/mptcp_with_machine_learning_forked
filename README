@@ -6,8 +6,8 @@ configure compile condition
 compile
 2. ./waf
 
-mock machine learning process
-3. python machineLearning/server_example.py
+mock machine learning process and make it run in background
+3. python machineLearning/server_example.py &
 
 run mptcp test and communicate with machine learning process
 4. ./waf --run "scratch/run/run --outputDir=./mptcp_output"
